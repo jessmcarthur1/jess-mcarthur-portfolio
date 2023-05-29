@@ -1,5 +1,5 @@
 <script>
-  import Nav from "$lib/Nav.svelte"
+  import Header from "$lib/Header.svelte"
   import Footer from "$lib/Footer.svelte"
 </script>
 
@@ -7,12 +7,7 @@
   <title>Paintings | Portfolio</title>
 </svelte:head>
 <div class="background">
-  <div class="columns">
-    <div class="column noBorder"><a href="/">Jess McArthur</a></div>
-    <div class="column noBorder">
-      <Nav />
-    </div>
-  </div>
+  <Header />
 
   <main>
     <h2>Paintings</h2>
@@ -86,11 +81,7 @@
     text-align: center;
     margin-left: 30%;
   }
-  a {
-    color: white;
-    font-size: 180%;
-    padding-left: 2%;
-  }
+
   p {
     color: white;
     font-size: 100%;
@@ -105,8 +96,5 @@
     border-style: solid;
     border-color: white;
     border-width: 0.5px;
-  }
-  .noBorder {
-    border-style: none;
   }
 </style>

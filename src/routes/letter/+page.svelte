@@ -1,5 +1,5 @@
 <script>
-  import Nav from "$lib/Nav.svelte"
+  import Header from "$lib/Header.svelte"
   import Footer from "$lib/Footer.svelte"
 </script>
 
@@ -7,14 +7,7 @@
   <title>Letter of Interest | Portfolio</title>
 </svelte:head>
 <div class="background">
-  <div class="columns">
-    <div class="column">
-      <a href="/">Jess McArthur</a>
-    </div>
-    <div class="column">
-      <Nav />
-    </div>
-  </div>
+  <Header />
 
   <main>
     <h2>Letter of Interest</h2>
@@ -45,12 +38,6 @@
     padding-bottom: 3%;
     width: 60%;
     margin-left: 20%;
-  }
-
-  a {
-    color: white;
-    font-size: 180%;
-    padding-left: 2%;
   }
 
   h2 {

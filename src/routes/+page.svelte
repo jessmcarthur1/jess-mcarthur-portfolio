@@ -1,5 +1,5 @@
 <script>
-  import Nav from "$lib/Nav.svelte"
+  import Header from "$lib/Header.svelte"
   import Footer from "$lib/Footer.svelte"
 </script>
 
@@ -9,7 +9,8 @@
 
 <div class="background">
   <main>
-    <a href="/">Jess McArthur</a>
+    <Header />
+
     <div class="columns">
       <div class="column">
         <div class="section">
@@ -18,7 +19,6 @@
         </div>
       </div>
       <div class="column">
-        <Nav />
         <img src="profile.png" alt="Jess McArthur Headshot" />
       </div>
     </div>
@@ -53,11 +53,5 @@
     font-size: 150%;
     text-transform: uppercase;
     font-family: "Noto Sans JP", sans-serif;
-  }
-
-  a {
-    color: white;
-    font-size: 180%;
-    padding-left: 2%;
   }
 </style>

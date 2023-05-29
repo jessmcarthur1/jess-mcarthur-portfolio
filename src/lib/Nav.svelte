@@ -12,7 +12,6 @@
 <style>
   nav {
     background-color: rgba(56, 56, 56, 0.4);
-    /* opacity: 40%; */
     margin-bottom: 2%;
     display: flex;
     justify-content: space-between;
@@ -27,17 +26,16 @@
   a {
     font-size: 110%;
     color: white;
-    /* opacity: 1; */
     font-family: "Noto Sans JP", sans-serif;
   }
   a:hover {
-    border-bottom: 1px solid rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(0, 0, 0);
+    color: black;
   }
 
   .current-page {
     color: rgb(0, 0, 0);
     z-index: 3;
-
     border-bottom: 1px solid rgb(0, 0, 0);
   }
 </style>

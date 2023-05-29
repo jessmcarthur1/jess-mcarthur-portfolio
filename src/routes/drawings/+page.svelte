@@ -1,19 +1,13 @@
 <script>
-  import Nav from "$lib/Nav.svelte"
   import Footer from "$lib/Footer.svelte"
+  import Header from "$lib/Header.svelte"
 </script>
 
 <svelte:head>
   <title>Drawings | Portfolio</title>
 </svelte:head>
 <div class="background">
-  <div class="columns">
-    <div class="column noBorder"><a href="/">Jess McArthur</a></div>
-    <div class="column noBorder">
-      <Nav />
-    </div>
-  </div>
-
+  <Header />
   <main>
     <h2>Drawings</h2>
     <h3>Showcased below is a series of my drawings produced in Visual Art throughout the past two years of NCEA.</h3>
@@ -63,11 +57,7 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
-  a {
-    color: white;
-    font-size: 180%;
-    padding-left: 2%;
-  }
+
   main {
     background-color: black;
     padding-left: 5%;
@@ -104,8 +94,5 @@
     border-style: solid;
     border-color: white;
     border-width: 0.5px;
-  }
-  .noBorder {
-    border-style: none;
   }
 </style>
