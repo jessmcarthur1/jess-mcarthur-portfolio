@@ -3,7 +3,7 @@
 </script>
 
 <header class="columns">
-  <h1 class="column noBorder is-narrow-tablet">
+  <h1 class="column noBorder is-narrow-tablet-mobile">
     <a href="/">Jess McArthur</a>
   </h1>
   <div class="column noBorder">

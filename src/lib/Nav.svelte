@@ -12,19 +12,16 @@
 <style>
   nav {
     background-color: rgba(56, 56, 56, 0.4);
-    /* margin-bottom: 2%; */
     display: flex;
     justify-content: space-between;
-    /* width: 80%; */
     padding-left: 2%;
     padding-right: 2%;
     padding-top: 1%;
     padding-bottom: 1%;
-    /* margin-top: 5%; */
   }
 
   a {
-    font-size: 110%;
+    font-size: 90%;
     color: white;
     font-family: "Noto Sans JP", sans-serif;
   }
