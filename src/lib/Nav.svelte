@@ -12,15 +12,15 @@
 <style>
   nav {
     background-color: rgba(56, 56, 56, 0.4);
-    margin-bottom: 2%;
+    /* margin-bottom: 2%; */
     display: flex;
     justify-content: space-between;
-    width: 80%;
+    /* width: 80%; */
     padding-left: 2%;
     padding-right: 2%;
     padding-top: 1%;
     padding-bottom: 1%;
-    margin-top: 5%;
+    /* margin-top: 5%; */
   }
 
   a {
@@ -35,7 +35,6 @@
 
   .current-page {
     color: rgb(0, 0, 0);
-    z-index: 3;
     border-bottom: 1px solid rgb(0, 0, 0);
   }
 </style>

@@ -31,6 +31,7 @@
     background-image: url("/background.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
+    height: 100%;
   }
 
   img {
