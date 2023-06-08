@@ -3,7 +3,7 @@
 </script>
 
 <header class="columns">
-  <h1 class="column noBorder is-narrow-tablet-mobile">
+  <h1 class="column noBorder">
     <a href="/">Jess McArthur</a>
   </h1>
   <div class="column noBorder">
@@ -33,5 +33,9 @@
     display: flex;
     align-content: center;
     justify-content: center;
+  }
+
+  a {
+    margin-left: -60%;
   }
 </style>
