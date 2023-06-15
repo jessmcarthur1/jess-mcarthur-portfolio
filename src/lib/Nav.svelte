@@ -1,12 +1,12 @@
 <script>
-  import { page } from "$app/stores"
+  import { page } from '$app/stores'
 </script>
 
 <nav>
-  <a href="letter" class:current-page={$page.url.pathname.includes("letter")}>Letter of Interest</a>
-  <a href="paintings" class:current-page={$page.url.pathname.includes("paintings")}>Paintings</a>
-  <a href="drawings" class:current-page={$page.url.pathname.includes("drawings")}>Drawings</a>
-  <a href="digital-media" class:current-page={$page.url.pathname.includes("digital-media")}>Digital Media</a>
+  <a href="letter" class:current-page={$page.url.pathname.includes('letter')}>Letter of Interest</a>
+  <a href="paintings" class:current-page={$page.url.pathname.includes('paintings')}>Paintings</a>
+  <a href="drawings" class:current-page={$page.url.pathname.includes('drawings')}>Drawings</a>
+  <a href="digital-media" class:current-page={$page.url.pathname.includes('digital-media')}>Digital Media</a>
 </nav>
 
 <style>
@@ -24,7 +24,7 @@
   a {
     font-size: 110%;
     color: rgba(255, 255, 255, 1);
-    font-family: "Noto Sans JP", sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
   }
   a:hover {
     border-bottom: 1px solid rgb(255, 255, 255, 1);
@@ -34,5 +34,11 @@
   .current-page {
     color: rgb(0, 0, 0);
     border-bottom: 1px solid rgb(255, 255, 255, 1);
+  }
+
+  @media only screen and (max-width: 600px) {
+    nav {
+      flex-direction: column;
+    }
   }
 </style>

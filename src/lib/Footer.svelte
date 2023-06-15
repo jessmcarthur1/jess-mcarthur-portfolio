@@ -1,12 +1,19 @@
 <footer>
-  <p>&copy; 2023, by Jess McArthur</p>
+  <p>&copy; Jess McArthur 2023</p>
 </footer>
 
 <style>
+  footer {
+    background-color: rgba(56, 56, 56, 0.4);
+    height: 10em;
+  }
+
   p {
-    color: black;
+    height: 10em;
+    line-height: 5em;
+    color: white;
     font-size: 110%;
-    padding-left: 10%;
+    text-align: center;
     padding-bottom: 2%;
     padding-top: 2%;
   }
