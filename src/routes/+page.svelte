@@ -31,6 +31,7 @@
     background-image: url("/background.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
+    width: 100%;
   }
 
   img {
@@ -53,5 +54,25 @@
     font-size: 150%;
     text-transform: uppercase;
     font-family: "Noto Sans JP", sans-serif;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .section {
+      padding-top: 2%;
+      padding-left: 2%;
+    }
+
+    img {
+      padding-top: 2%;
+      margin-left: 16%;
+    }
+    .columns {
+      align-content: center;
+    }
+
+    h1,
+    h2 {
+      text-align: center;
+    }
   }
 </style>
