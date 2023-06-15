@@ -50,7 +50,7 @@
 
     <div class="columns">
       <div class="column">
-        <img src="media3.png" alt="A website page displaying a breakfast menu." />
+        <img src="media6.png" alt="A mood board." />
       </div>
       <div class="column">
         <h4>Mood Board</h4>
