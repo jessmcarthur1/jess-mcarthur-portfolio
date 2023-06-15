@@ -1,6 +1,6 @@
 <script>
-  import Header from "$lib/Header.svelte"
-  import Footer from "$lib/Footer.svelte"
+  import Header from '$lib/Header.svelte'
+  import Footer from '$lib/Footer.svelte'
 </script>
 
 <svelte:head>
@@ -54,47 +54,64 @@
 
 <style>
   .background {
-    background-image: url("/background.jpg");
+    background-image: url('/background.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
 
   main {
     background-color: black;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 5%;
+    padding: 3em 4em;
   }
 
   h2 {
     color: white;
-    font-size: 300%;
+    font-size: 3em;
     text-align: center;
-    padding-bottom: 3%;
   }
 
   h3 {
     color: white;
-    font-size: 100%;
-    padding-bottom: 5%;
-    width: 40%;
+    font-size: 1.5em;
     text-align: center;
-    margin-left: 30%;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 3em;
+  }
+
+  h4 {
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 1em;
   }
 
   p {
     color: white;
-    font-size: 100%;
-    padding-bottom: 3%;
     width: 60%;
-    text-align: center;
-    margin-left: 20%;
-    margin-top: 30%;
+    margin-bottom: 1em;
+  }
+
+  .columns {
+    margin-bottom: 3em;
   }
 
   .column {
     border-style: solid;
     border-color: white;
-    border-width: 0.5px;
+    border-width: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  @media only screen and (max-width: 600px) {
+    main {
+      padding: 3em 2em;
+    }
+
+    h3 {
+      width: 100%;
+    }
   }
 </style>
