@@ -32,10 +32,10 @@
 
     <div class="columns">
       <div class="column">
-        <p>Here is my charcoal drawing from Visual Art level 2 with the theme of farming New Zealand.</p>
+        <p>Here is my pencil drawing from Visual Art level 3 with the theme of Twizel Township.</p>
       </div>
       <div class="column">
-        <img src="drawing3.png" alt="A charcoal drawing of a small group of sheep behind a fence." />
+        <img src="drawing3.png" alt="A pencil drawing of the Twizel bakery." />
       </div>
     </div>
 
