@@ -1,6 +1,6 @@
 <script>
-  import Header from '$lib/Header.svelte'
-  import Footer from '$lib/Footer.svelte'
+  import Header from "$lib/Header.svelte";
+  import Footer from "$lib/Footer.svelte";
 </script>
 
 <svelte:head>
@@ -15,7 +15,8 @@
 
     <div class="columns">
       <div class="column">
-        <p>Here is a painting produced in level two with the theme of farming New Zealand, and painting techniques from artist Joshua Field.</p>
+        <h4>Farm Painting</h4>
+        <p>A painting I produced in level two with the theme of farming New Zealand, and painting techniques from artist Joshua Field.</p>
       </div>
       <div class="column">
         <img src="painting1.png" alt="A painting of a cow and a native bird aganist a grey abstract background." />
@@ -27,13 +28,15 @@
         <img src="painting2.png" alt="A painting of a cow against a grey abstract background with pink elements and some barbwire." />
       </div>
       <div class="column">
-        <p>This is a painting produced in level two with the theme of farming New Zealand, and painting techniques from Michael Cutlip.</p>
+        <h4>Farm Painting</h4>
+        <p>My second painting produced in level two with the theme of farming New Zealand, and painting techniques from Michael Cutlip.</p>
       </div>
     </div>
 
     <div class="columns">
       <div class="column">
-        <p>This is a painting from level three with the theme of Twizel Township, and painting techniques from David Hockney.</p>
+        <h4>Twizel Painting</h4>
+        <p>My painting from level three with the theme of Twizel Township, and painting techniques from David Hockney.</p>
       </div>
       <div class="column">
         <img src="painting3.png" alt="A painting of a Four Square supermarket set against a landscpae." />
@@ -45,7 +48,8 @@
         <img src="painting4.png" alt="A painting of sunset over a mountain range using strong red, orange, yellow, and black." />
       </div>
       <div class="column">
-        <p>Here is a painting from level three with the theme of Twizel Township, and painting techniques from Peter James Smith.</p>
+        <h4>Twizel Painting</h4>
+        <p>My second painting from level three with the theme of Twizel Township, and painting techniques from Peter James Smith.</p>
       </div>
     </div>
   </main>
@@ -54,7 +58,7 @@
 
 <style>
   .background {
-    background-image: url('/background.jpg');
+    background-image: url("/background.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
   }

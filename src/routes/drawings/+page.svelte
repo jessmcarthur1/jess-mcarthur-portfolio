@@ -14,7 +14,8 @@
 
     <div class="columns">
       <div class="column">
-        <p>Here is one of my line pencil drawings from Visual Art level 2 with the theme of farming New Zealand.</p>
+        <h4>Line Pencil Drawing</h4>
+        <p>This is one of my line pencil drawings from Visual Art level 2 with the theme of farming New Zealand.</p>
       </div>
       <div class="column">
         <img src="drawing1.png" alt="A perspective drawing of farm paddock fenceline in pencil. " />
@@ -26,13 +27,15 @@
         <img src="drawing2.png" alt="A pencil drawing of a farmer standing astride a quadbike looking across a paddock." />
       </div>
       <div class="column">
-        <p>Here is my second line pencil drawing from Visual Art level 2 with the theme of farming New Zealand.</p>
+        <h4>Line Pencil Drawing</h4>
+        <p>This is my second line pencil drawing from Visual Art level 2 with the theme of farming New Zealand.</p>
       </div>
     </div>
 
     <div class="columns">
       <div class="column">
-        <p>Here is my pencil drawing from Visual Art level 3 with the theme of Twizel Township.</p>
+        <h4>Pencil Drawing</h4>
+        <p>This is my pencil drawing from Visual Art level 3 with the theme of Twizel Township.</p>
       </div>
       <div class="column">
         <img src="drawing3.png" alt="A pencil drawing of the Twizel bakery." />
@@ -44,6 +47,7 @@
         <img src="drawing4.png" alt="A charcoal drawing of bridge, with a spiky, bare tree in the foreground." />
       </div>
       <div class="column">
+        <h4>Charcoal Drawing</h4>
         <p>Here is my charcoal drawing from Visual Art level 3 with the theme of Twizel Township.</p>
       </div>
     </div>

@@ -15,8 +15,8 @@
 
     <div class="columns">
       <div class="column">
-        <h4>Website</h4>
-        <p>This is a website that I designed for my employer at the Jolly Potter Restaurant using Wix</p>
+        <h4>Jolly Potter Restaurant</h4>
+        <p>I designed this website for my employer at the Jolly Potter Restaurant using Wix</p>
       </div>
       <div class="column">
         <img src="media1.png" alt="The homepage of a restaurant website." />
@@ -31,14 +31,14 @@
         <img src="media3.png" alt="A website page displaying a breakfast menu." />
       </div>
       <div class="column">
-        <h4>Website</h4>
-        <p>Here is a website that I created in level two for my digital technologies assessment on a restaurant using svelte and bulma.</p>
+        <h4>Atrium Website</h4>
+        <p>I created this website in level two for my digital technologies assessment using svelte and bulma.</p>
       </div>
     </div>
     <div class="columns">
       <div class="column is-half">
-        <h4>Prototype</h4>
-        <p>Here is a prototype for my current web app design for children's learning at home 'Tiny Learners'.</p>
+        <h4>Tiny LearnersPrototype</h4>
+        <p>Here is my portotype for my current web app design for children's learning at home.</p>
       </div>
       <div class="column">
         <img src="media4.png" alt="The colorful display of a children's learning app." />
@@ -53,8 +53,8 @@
         <img src="media6.png" alt="A mood board." />
       </div>
       <div class="column">
-        <h4>Mood Board</h4>
-        <p>Here is a mood board that I created when doing work experience at a marketing agency in Christchurch. It was the design idea for an At Home Gin brand</p>
+        <h4>Gin Mood Board</h4>
+        <p>I created this mood board on an At Home Gin brand when doing work experience at a marketing agency.</p>
       </div>
     </div>
   </main>
