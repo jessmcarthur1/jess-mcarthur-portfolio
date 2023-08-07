@@ -1,6 +1,6 @@
 <script>
-  import Header from '$lib/Header.svelte'
-  import Footer from '$lib/Footer.svelte'
+  import Header from "$lib/Header.svelte";
+  import Footer from "$lib/Footer.svelte";
 </script>
 
 <svelte:head>
@@ -28,7 +28,7 @@
 
 <style>
   .background {
-    background-image: url('/background.jpg');
+    background-image: url("/background.webp");
     background-repeat: no-repeat;
     background-attachment: fixed;
     width: 100%;
@@ -57,7 +57,7 @@
     color: white;
     font-size: 150%;
     text-transform: uppercase;
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: "Noto Sans JP", sans-serif;
   }
 
   @media only screen and (max-width: 600px) {
