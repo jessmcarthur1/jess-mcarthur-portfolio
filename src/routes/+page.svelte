@@ -48,13 +48,13 @@
     padding-left: 18%;
   }
   h1 {
-    color: white;
+    color: rgb(6, 6, 6);
     font-size: 400%;
     font-weight: normal;
   }
 
   h2 {
-    color: white;
+    color: rgb(6, 6, 6);
     font-size: 150%;
     text-transform: uppercase;
     font-family: "Noto Sans JP", sans-serif;
