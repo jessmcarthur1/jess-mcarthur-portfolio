@@ -1,5 +1,5 @@
 <script>
-  import Nav from "$lib/Nav.svelte"
+  import Nav from "$lib/Nav.svelte";
 </script>
 
 <header class="columns">
@@ -20,7 +20,7 @@
   }
 
   h1 a {
-    color: white;
+    color: black;
     font-size: 180%;
     display: flex;
   }
